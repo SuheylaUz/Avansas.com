@@ -1,0 +1,198 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2021-11-07T14:45:17.066Z",
+        "line": 4,
+        "name": "TC01_",
+        "description": "",
+        "id": "tc01-avansas.com;tc01-",
+        "after": [
+          {
+            "result": {
+              "duration": 303000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "stepDefinitions.Hooks.tearDown(io.cucumber.java.Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 8340000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Kullanici avansas.com sayfasina gider.",
+            "match": {
+              "location": "stepDefinitions.AvansasStepDefinitions.kullaniciAvansasComSayfasinaGider()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 40000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Anasayfada oldugunu verify eder.",
+            "match": {
+              "location": "stepDefinitions.AvansasStepDefinitions.anasayfadaOldugunuVerifyEder()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3211000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Ekranin üstündeki arama alanina \u003c\"kalem\"\u003e yazar aratir.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kalem\"",
+                  "offset": 33
+                }
+              ],
+              "location": "stepDefinitions.AvansasStepDefinitions.ekraninÜstündekiAramaAlaninaYazarAratir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 443000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "Gelen sayfada \"kalem\" icin sonuc bulundugunu verify eder",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"kalem\"",
+                  "offset": 14
+                }
+              ],
+              "location": "stepDefinitions.AvansasStepDefinitions.gelenSayfadaIcinSonucBulundugunuVerifyEder(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2340000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "Kategori listesinden \"Kurşun Kalemler\" kategorisi tiklar.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Kurşun Kalemler\"",
+                  "offset": 21
+                }
+              ],
+              "location": "stepDefinitions.AvansasStepDefinitions.kategoriListesindenKategorisiTiklar(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 736000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Akilli Siralama yazisina tiklar",
+            "match": {
+              "location": "stepDefinitions.AvansasStepDefinitions.akilliSiralamaYazisinaTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2273000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "İsme gore sirala kategorisine tiklar",
+            "match": {
+              "location": "stepDefinitions.AvansasStepDefinitions.ismeGoreSiralaKategorisineTiklar()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 790000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Gelen urun listesinde adinda \"Bic Evolution\" iceren kac urun oldugu tespit edilir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bic Evolution\"",
+                  "offset": 29
+                }
+              ],
+              "location": "stepDefinitions.AvansasStepDefinitions.gelenUrunListesindeAdindaIcerenKacUrunOlduguTespitEdilir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 352000000,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "\"Bic Evolution\" iceren urun adeti sıfırdan fazla ise test basarilidir, değilse basarisizdir",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Bic Evolution\"",
+                  "offset": 0
+                }
+              ],
+              "location": "stepDefinitions.AvansasStepDefinitions.icerenUrunAdetiSıfırdanFazlaIseTestBasarilidirDeğilseBasarisizdir(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "sayfayi kapatir",
+            "match": {
+              "location": "stepDefinitions.AvansasStepDefinitions.sayfayiKapatir()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@avansas"
+          }
+        ]
+      }
+    ],
+    "name": "TC01_Avansas.com",
+    "description": "",
+    "id": "tc01-avansas.com",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Avansas.feature",
+    "tags": [
+      {
+        "name": "@avansas",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
